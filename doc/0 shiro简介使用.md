@@ -21,7 +21,7 @@ mysql:5.5.27
 ### 2.2.1 建立项目shiro
 - 1 新建spring项目，开发工具选择lombok
 - 2 修改pom，增加shiro依赖
-`org.projectlombok.lombok.version:1.5.3`
+` org.apache.shiro.shiro-spring.version:1.5.3`
 - 3 增加实现了AuthorizingRealm的具体realm类
 ```
 package cn.ithzp.shiro.config;
